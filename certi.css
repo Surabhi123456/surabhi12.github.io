@@ -1,0 +1,106 @@
+.certificate-section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.certificate {
+  background: #fff0f6;
+  border-left: 5px solid #ffafcc;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.certificate:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.certificate-title {
+  font-size: 1.2rem;
+  color: #b5838d;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.certificate a {
+  text-decoration: none;
+  color: #6d597a;
+  background-color: #ffc2d1;
+  padding: 8px 14px;
+  border-radius: 8px;
+  font-weight: 600;
+  display: inline-block;
+  transition: background 0.3s ease;
+}
+
+.certificate a:hover {
+  background-color: #ffb3c6;
+  color: #fff;
+}
+h1, h2 {
+  font-family: 'Segoe UI', sans-serif;
+  color: #7f4ca5;
+  margin-bottom: 10px;
+}
+
+/* Special style for ABOUT header */
+.about-header {
+  font-size: 2.4rem;
+  font-weight: bold;
+  color: #c084fc; /* Soft lavender */
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  position: relative;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.about-header::after {
+  content: '';
+  position: absolute;
+  width: 60px;
+  height: 4px;
+  background-color: #ffb3c6; /* pastel pink underline */
+  bottom: 0;
+  left: 0;
+  border-radius: 2px;
+}
+/* NAVIGATION STYLING */
+nav {
+  background-color: #d7773f; /* soft pink */
+  padding: 12px 0;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  text-align: center;
+  border-bottom: 3px solid #ffc8dd;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+  color: #19161a; /* lavender-pink */
+  padding: 8px 16px;
+  border-radius: 8px;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+nav ul li a:hover {
+  background-color: #6a5e5c; /* soft peach */
+  color: #5b5651; /* deeper lavender */
+}
+

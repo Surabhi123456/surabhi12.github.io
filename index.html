@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal Profile Page of Surabhi">
+    <title>Surabhi's Profile</title>
+    <link rel="icon" href="icon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style_1.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <script src="script_1.js" defer></script>
+
+    
+
+
+
+
+</head>
+
+<body>
+    <center>
+        <header>
+            <h1>
+                This is Surabhi, a 
+                <span class="about-me"></span>
+            </h1>
+            <p>Welcome to My World !</p>
+        </header>
+        <hr>
+
+        <section>
+            <h2>About Me</h2>
+            <p>Hello! I’m Surabhi, and here’s a little Info about Me.</p>
+            <img src="mainimg.jpeg" alt="Surabhi pic" width="300">
+        </section>
+        <br>
+        <section>
+            <h2>My Technical Skills</h2>
+            <div class="skills-list">
+                <ul class="skills-list">
+                     <li>
+                        "Web Developer"
+                    </li>
+                    <li>
+                        "Python"
+                    </li>
+                    <li>
+                        "Java"
+                    </li>
+                    <li>
+                        "DSA"
+                    </li>
+                    <li>
+                        "SQL"
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section id="programming-languages">
+            <h2>Programming Languages</h2>
+            
+            <div class="skill">
+                <p>Python</p>
+                <div class="progress-bar" data-progress="90"></div>
+            </div>
+            <div class="skill">
+                <p>Java</p>
+                <div class="progress-bar" data-progress="90"></div>
+            </div>
+            <div class="skill">
+                <p>HTML</p>
+                <div class="progress-bar" data-progress="100"></div>
+            </div>
+            <div class="skill">
+                <p>CSS</p>
+                <div class="progress-bar" data-progress="100"></div>
+            </div>
+
+        </section>
+        <section>
+            <h2>More Information</h2>
+            <p>Take a look , at some of my details.</p>
+            <section id="projects">
+                <div class="project-thumbnail">
+                    <div class="thumbnail-contect">
+                        <img src="tkreclogo.jpeg" alt="Project 1" width="10px">
+                        <h3>About my college</h3>
+                        <p>TEEGALA KRISHNA REDDY ENGINEERING COLLEGE</p>
+                        <a href="project.html" class="btn">Know More</a>
+                    </div>
+                </div>
+                <div class="project-thumbnail">
+                    <div class="thumbnail-contect">
+                        <img src="itlogo.jpeg" alt="Project 2" width="50">
+                        <h3>About by branch</h3>
+                        <p>INFORMATION TECHNOLOGY</p>
+                        <br>
+                        <a href="branch.html" class="btn">Know More</a>
+                    </div>
+                </div>
+                <div class="project-thumbnail">
+                    <div class="thumbnail-contect">
+                        <img src="logocerti.jpg" alt="Project 3">
+                        <h3>Some of my certificates</h3>
+                        <p>Description of Certification</p>
+                        <br>
+                        <a href="certi.html" class="btn">Know More</a>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <section>
+            <h2>Contact Me</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" placeholder="Your Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" placeholder="Your Email">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" placeholder="Your Message"></textarea>
+                    </div>
+                    <button type="submit">Send</button>                
+                </form>
+        </section>
+        <section>
+            <h2>Contact Information</h2>
+            <p>Let's connect!</p>
+            <a href="mailto:mommayisurabhi@gmail.com" class="icon-link email-icon"><i class="fas fa-envelope"></i></a>
+            <a href="https://www.linkedin.com/in/surabhi-mommayi-7989912b5?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BzOrCgVGlQfqG0xk%2BrslKhA%3D%3D" class="icon-link linkedin-icon">
+                <i class="fab fa-linkedin">
+                    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+                </i>
+            </a>
+        </section>
+        <footer>
+            <p>&copy; 2024 Surabhi. Built by WarriorsWayHub.</p>
+        </footer>
+        <div id="dark-mode-toggle" class="dark-mode-toggle">
+            <i class="fas fa-moon">
+
+            </i>
+        </div>
+        <center>
+            <div class="container">
+                <button id="toggle-mode">
+                    <span id="icon"></span> <!-- Icon for dark mode -->
+                </button>
+            </div>
+            <script src="script.js"></script>
+            </center>
+    </center>
+</body>
+</html>
